@@ -1,0 +1,10 @@
+---
+core:
+  num_workers: 20
+
+inventory:
+  plugin: nornir.plugins.inventory.netbox.NBInventory
+  options:
+    nb_url: 'http://localhost:8000'
+    nb_token: '0123456789abcdef0123456789abcdef01234567'
+    ssl_verify: False
