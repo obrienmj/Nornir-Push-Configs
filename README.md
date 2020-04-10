@@ -4,6 +4,8 @@ I created this Nornir script to push CCIE workbook files to my lab environment.
 ## Tools Needed
 For this you'll need to have Netbox setup with devices loaded.  You'll also need to have Nornir installed.
 
+You'll also need a configs folder containing all of the initial device configurations.  I did not include them here as I do not own the workbooks.
+
 ## Running the Script
 The runbook.py script takes the following command line arguments:
 - "-r" or "--role" to specify the device role in Netbox.  Currently it only accepts "router" or "switch"
